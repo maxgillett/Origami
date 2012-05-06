@@ -13,4 +13,9 @@ class UsersController < ApplicationController
   		end
 	end
 
+
+	def test
+		@test = "this is just a test"
+	end
+
 end
